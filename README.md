@@ -1,4 +1,4 @@
-<p align="center"><img width=12.5% src="https://github.com/lchsam/ClassIO/master/logo.png"></p>
+<p align="center"><img width=12.5% src="https://github.com/lchsam/ClassIO/logo.png"></p>
 
 ## The Gist
 
