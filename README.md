@@ -1,5 +1,5 @@
-<p align="center"><img width=82% src="https://github.com/lchsam/ClassIO/blob/master/logo.png"></p>
-<p align="center">Class I/O </p>
+<p align="center"><img width=46% src="https://github.com/lchsam/ClassIO/blob/master/logo.png"></p>
+<p align="center"><h3>Class I/O</h3>
 
 ## The Gist
 
