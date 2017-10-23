@@ -22,6 +22,17 @@ def handle_verification():
         print("Wrong token")
         return render_template('default.html')
 
+@app.route('/', methods=['POST'])
+def handle_message():
+    """Handle messages sent by facebook messenger
+    to the application"""
+
+    data = request.get_json()
+
+    # data sent that are not JSON will not be processed
+    if data is None:
+        return "ok"
+
 
 if __name__ == "__main__":
     app.run(host=HOST, port=PORT)
