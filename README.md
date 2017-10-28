@@ -1,4 +1,5 @@
 <p align="center"><img width=46% src="https://github.com/lchsam/ClassIO/blob/master/logo.png"></p>
+[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
 <h1 align="center">Class I/O</h1>
 
 WIP
