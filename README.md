@@ -1,10 +1,13 @@
 <p align="center"><img width=50% src="https://github.com/lchsam/ClassIO/blob/master/logo.png"></p>
 <p align="center"><img width=25% src="http://forthebadge.com/images/badges/made-with-python.svg"></p>
 <h1 align="center">Class I/O</h1>
-
-WIP
-
 <br>
+A Facebook bot that notifies users when a selected UMass class is open. 
+
+Ever experienced needing to change to a different class after the enrollment period? Or maybe at the beginning of a semester? 
+If you have experienced these, I'm sure you have incidents where you wanted to enroll in a course, but that class you wanted very much was unfortunately full.
+
+Class I/O can notify students when their course is open for enrollment.
 
 ## More Gist
 WIP
