@@ -21,16 +21,3 @@ This bot can notify students when their course is open for enrollment!
 ## How it works
 ![alt text](https://github.com/lchsam/ClassIO/blob/master/misc/diagram.png "Diagram")
 ```ngrok-fbbpoy.py ```is responsible for handling incoming messages from facebook. ```sendmessage.py``` is used to send messages back to Facebook. ```findclass.py``` is a module that identifies validity of a class number. If it is valid, the module then determines if this class is full or open.
-
-
-
-#### Currently in Development
-- Use dictionary to implement stages in conversation (welcome -> interested -> notify[/ already open class/ nonexistent class]-> interested if n < 2 / (welcomeback if checks are deleted -> welcome if refresh)/ (open class -> welcomeback if notify is done)
-- Limit to 2 class check
-- Utilize Subprocess
-- Delete class checks (stop messages)
-- Checker posts back to main app if open class so user can turn it off
-- Server_name for flask to pass in to checker to let it know open class
-- Delete subprocesses when enrollment period ends (if anything maybe end of semester)
-- Type stage
-- Manage Seq
