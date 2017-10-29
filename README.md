@@ -19,7 +19,7 @@ This bot can notify students when their course is open for enrollment!
 <p align="center"> Fully implemented, GIF is WIP </p>
 
 ## How it works
-<p align="center"><img width=45% src="https://github.com/lchsam/ClassIO/blob/master/misc/diagram.png"></p>
+<p align="center"><img src="https://github.com/lchsam/ClassIO/blob/master/misc/diagram.png"></p>
 
 
 
