@@ -19,11 +19,8 @@ This bot can notify students when their course is open for enrollment!
 <p align="center"> Fully implemented, GIF is WIP </p>
 
 ## How it works
-<p align="center"><img src="https://github.com/lchsam/ClassIO/blob/master/misc/diagram.png"></p>
-```
-ngrok-fbbpoy.py 
-```
-is responsible for handling the incoming messages from facebook. ```sendmessage.py``` is used by ```ngrok-fbbot.py``` to send messages back to Facebook and respond incoming Facebook messages with HTTP 200 asynchronously. ```findclass.py``` is a module that identifies if a selected class number is a legitimate. If it is, the module finds if this class is full or open.
+![alt text](https://github.com/lchsam/ClassIO/blob/master/misc/diagram.png "Diagram")
+```ngrok-fbbpoy.py ```is responsible for handling the incoming messages from facebook. ```sendmessage.py``` is used by ```ngrok-fbbot.py``` to send messages back to Facebook and respond incoming Facebook messages with HTTP 200 asynchronously. ```findclass.py``` is a module that identifies if a selected class number is a legitimate. If it is, the module finds if this class is full or open.
 
 
 
