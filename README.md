@@ -10,8 +10,9 @@ If you have experienced these, I'm sure you have incidents where you wanted to e
 
 This bot can notify students when their course is open for enrollment!
 
-## More Gist
-WIP
+## Bot In Action
+
+
 
 
 #### Currently in Development
