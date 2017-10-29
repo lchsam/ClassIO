@@ -32,6 +32,8 @@ sender_stage_pair = {}  # {STRING: STRING}
 sender_subprocess_list_pair = {}  # {STRING: [SUBPROCESS]}
 # Associate command to stage (using a command moves sender id to a different stage)
 command_stage_pair = {'runio': 'TypeNumber'}  # {STRING: STRING}
+# Associate sender id with message SUBPROCESS
+sender_subprocess_message_pair = {}
 
 
 @app.route('/', methods=['GET'])
@@ -127,7 +129,7 @@ def process_message(sender_id, message):
     if message == 'del':
         pop_subprocess_list(sender_id)
         # For debugging
-        print('{}-Sub:----{}'.format(sender_id, sender_subprocess_list_pair))
+        # print('{}-Sub:----{}'.format(sender_id, sender_subprocess_list_pair))
         sender_stage_pair[sender_id] = "TypeNumber"
         return
     if message.lower() in command_stage_pair and sender_stage_pair[sender_id] == "Running":
@@ -308,7 +310,10 @@ def send_message_response(sender_id, message_text):
     cmd = ['python', 'sendmessage.py', PAGE_ACCESS_TOKEN, sender_id]
     cmd += messages
     # Using a list of arguments, with shell=True, shell runs python independent of the arguments
-    subprocess.Popen(cmd)
+    message_subprocess = subprocess.Popen(cmd)
+    if sender_id in sender_subprocess_message_pair:
+        sender_subprocess_message_pair[sender_id].kill()
+    sender_subprocess_message_pair[sender_id] = message_subprocess
 
 
 if __name__ == "__main__":
