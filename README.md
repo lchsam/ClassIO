@@ -1,5 +1,5 @@
-<p align="center"><img width=45% src="https://github.com/lchsam/ClassIO/blob/master/misc/logo.png"></p>
-<p align="center"><img width=25% src="http://forthebadge.com/images/badges/made-with-python.svg"></p>
+<p align="center"><img width=40% src="https://github.com/lchsam/ClassIO/blob/master/misc/logo.png"></p>
+<p align="center"><img style="max-width:80%;" src="http://forthebadge.com/images/badges/made-with-python.svg"></p>
 <h1 align="center">Class I/O</h1>
 <br>
 A Facebook bot that notifies users when a selected UMass class is open.
@@ -12,10 +12,10 @@ This bot can notify students when their course is open for enrollment!
 
 ## Bot In Action
 <h3 align="center">Welcoming Message</h3>
-<p align="center"><img width=30% src="https://github.com/lchsam/ClassIO/blob/master/misc/entry.gif"></p>
+<p align="center"><img style="max-width:80%;" src="https://github.com/lchsam/ClassIO/blob/master/misc/entry.gif"></p>
 <br>
 <h3 align="center">Recognizing already open classes</h3>
-<p align="center"><img width=30% src="https://github.com/lchsam/ClassIO/blob/master/misc/openalready.gif"></p>
+<p align="center"><img style="max-width:80%;" src="https://github.com/lchsam/ClassIO/blob/master/misc/openalready.gif"></p>
 <br>
 <h3 align="center">Recognize full classes and notify accordingly</h3>
 <p align="center"> Fully implemented, GIF is WIP </p>
