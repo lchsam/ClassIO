@@ -4,6 +4,7 @@ Feature checklist:
 [ ] Help command
 [ ] website bot documentation on commands
 [ ] Save all dictionaries to file for backup (in case server shuts down)
+[ ] Ignore user messages while bot is talking
 """
 
 import json
