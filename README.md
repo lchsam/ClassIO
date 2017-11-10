@@ -29,3 +29,5 @@ This bot can notify students when their course is open for enrollment!
 Used in ```findclass.py``` to determine class status.
 ### Flask
 Used in ```ngrok-fbbot.py``` to communicate with Facebook
+### Requests
+Used in ```findclass.py```, ```ngrok-fbbot.py``` and ```sendmessage.py``` to send posts requests.
